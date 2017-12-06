@@ -10,25 +10,23 @@ Italy
 Switzerland
 Germany
 Luxembourg
-Belgium
-
+Belgium <br>
 France
 Belgium
 Luxembourg
 Germany
 Switzerland
 Italy
-Spain
+Spain <br>
 
-
+- Starting with "Italy". "Spain" is an exception, since it only has one direct neighbour which is "France".
 Italy
 France
 Switzerland
 Spain
 Germany
 Luxembourg
-Belgium
-
+Belgium <br>
 Italy
 Switzerland
 Germany
