@@ -1,9 +1,8 @@
 # Questions & Answers
 
-##
+## Discuss the differences among the results. Does the starting point make a difference?
 
-France
-Spain
+France &nbsp Spain
 Italy
 Switzerland
 Germany
@@ -34,3 +33,5 @@ Belgium
 Luxembourg
 France
 Spain
+
+## Give two or three examples of how/why a real-world map might require more than four colors.
