@@ -1,8 +1,11 @@
 # Questions & Answers
 
 ## Discuss the differences among the results. Does the starting point make a difference?
+`BreadthFirstIterator` and `DepthFirstIterator` will print reversed results for the same starting vertice.
 
-France &nbsp Spain
+- Start with "France" <br>
+France
+Spain
 Italy
 Switzerland
 Germany
