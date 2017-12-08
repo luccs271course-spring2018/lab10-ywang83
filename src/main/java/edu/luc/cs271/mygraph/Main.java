@@ -53,9 +53,8 @@ public class Main {
     }
     System.out.println("");
 
-    // print nothing
     final Iterator<String> cf = new ClosestFirstIterator<>(myMap, FR);
-    while (bf.hasNext()) {
+    while (cf.hasNext()) {
       final String country = cf.next();
       System.out.println(country);
     }
