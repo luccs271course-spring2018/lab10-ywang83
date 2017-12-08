@@ -35,7 +35,7 @@ Luxembourg
 France
 Spain
 
-2. `ClosestFirstIterator` will print the same result with `BreadthFirstIterator`.
+2. `ClosestFirstIterator` will print the same result with `BreadthFirstIterator`.<br>
 France
 Spain
 Italy
