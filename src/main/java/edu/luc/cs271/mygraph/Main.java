@@ -13,15 +13,13 @@ public class Main {
 
   public static void main(final String[] args) {
 
-    //    final static String AT = "Austria";
-    //    final static String DE = "Germany";
-    final String FR = "France";
-    final String ES = "Spain";
-    final String IT = "Italy";
-    final String CH = "Switzerland";
-    final String DE = "Germany";
-    final String LU = "Luxembourg";
-    final String BE = "Belgium";
+    final String FR = countryCodes.FR;
+    final String ES = countryCodes.ES;
+    final String IT = countryCodes.IT;
+    final String CH = countryCodes.CH;
+    final String DE = countryCodes.DE;
+    final String LU = countryCodes.LU;
+    final String BE = countryCodes.BE;
 
     final Graph<String, DefaultEdge> myMap = new SimpleGraph<>(DefaultEdge.class);
     myMap.addVertex(FR);
@@ -32,7 +30,7 @@ public class Main {
     myMap.addVertex(LU);
     myMap.addVertex(BE);
 
-    myMap.addEdge(FR, ES);
+    myMap.addEdge(countryCodes.FR, countryCodes.ES);
     myMap.addEdge(FR, IT);
     myMap.addEdge(FR, CH);
     myMap.addEdge(FR, DE);
