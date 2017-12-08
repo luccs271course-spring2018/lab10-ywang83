@@ -8,6 +8,7 @@ import org.jgrapht.graph.SimpleGraph;
 import org.jgrapht.traverse.BreadthFirstIterator;
 import org.jgrapht.traverse.ClosestFirstIterator;
 import org.jgrapht.traverse.DepthFirstIterator;
+import org.jgrapht.traverse.RandomWalkIterator;
 
 public class Main {
 
@@ -67,13 +68,13 @@ public class Main {
     }
     System.out.println("");
 
-    // print infinitly
-    //    final Iterator<String> rw = new RandomWalkIterator<>(myMap, FR);
-    //    while (rw.hasNext()) {
-    //      final String country = rw.next();
-    //      System.out.println(country);
-    //    }
-    //    System.out.println("");
+//     print infinitly
+        final Iterator<String> rw = new RandomWalkIterator<>(myMap, FR);
+//        while (rw.hasNext()) {
+//          final String country = rw.next();
+//          System.out.println(country);
+//        }
+//        System.out.println("");
 
     GreedyColoring map = new GreedyColoring(myMap);
     System.out.println(map.getColoring());

@@ -36,6 +36,13 @@ France
 Spain
 
 2. `ClosestFirstIterator` will print the same result with `BreadthFirstIterator`.
+France
+Spain
+Italy
+Switzerland
+Germany
+Luxembourg
+Belgium
 
 3. `RandomWalkIterator` will print randomly on all the country names infinitely, no matter what the starting vertice is.
 
