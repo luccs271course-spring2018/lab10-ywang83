@@ -40,7 +40,7 @@ Spain
 3. `RandomWalkIterator` will print randomly on all the country names infinitely, no matter what the starting vertice is.
 
 ## Give two or three examples of how/why a real-world map might require more than four colors.
-1. Enclave: For an example: Vatican City is entirely surrounded by the territory of Italy. Different colors will be used for the two countries and neighours of Italy.
-2. Exclave: For an example: Campione d'Italia, Province of Como, Italy is separated from the main part of Italy and located in the territory of Switzerland. Campoine will be painted the same color with Italy, but different with Switzerland.
-3. If several countries share the same corner, then more than four colors are need.
+1. Enclave: For an example: Vatican City is entirely surrounded by the territory of Italy. Different colors will be used for the two countries and neighbors of Italy.
+2. Exclave: For an example: Campione d'Italia, Province of Como, Italy is separated from the main part of Italy and located in the territory of Switzerland. Campoine will be painted the same color with Italy, but different with Switzerland, and neighbors of the two countries.
+3. If several countries share the same corner, then more than four colors will be used.
 4. Usually the real maps will use more than four colors to show different areas, and for better visual effects.
