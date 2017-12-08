@@ -4,14 +4,14 @@
 1. `BreadthFirstIterator` and `DepthFirstIterator` will print reversed results for the same starting vertice.
 
 - Start with "France" <br>
-France
+`BreadthFirstIterator` - France
 Spain
 Italy
 Switzerland
 Germany
 Luxembourg
 Belgium <br>
-France
+`DepthFirstIterator` - France
 Belgium
 Luxembourg
 Germany
@@ -20,14 +20,14 @@ Italy
 Spain <br>
 
 - Starting with "Italy". "Spain" is an exception, since it only has one direct neighbour which is "France".  <br>
-Italy
+`BreadthFirstIterator` - Italy
 France
 Switzerland
 Spain
 Germany
 Luxembourg
 Belgium <br>
-Italy
+`DepthFirstIterator` - Italy
 Switzerland
 Germany
 Belgium
