@@ -70,11 +70,18 @@ public class Main {
 
 //     print infinitly
         final Iterator<String> rw = new RandomWalkIterator<>(myMap, FR);
+        for(int i=0; i<7;i++){
+          final String country = rw.next();
+          System.out.println(country);
+        }
 //        while (rw.hasNext()) {
 //          final String country = rw.next();
 //          System.out.println(country);
+//          if (rw.next()==FR){
+//            break;
+//          }
 //        }
-//        System.out.println("");
+        System.out.println("");
 
     GreedyColoring map = new GreedyColoring(myMap);
     System.out.println(map.getColoring());
